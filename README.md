@@ -1,1 +1,1 @@
-https://malwinajordan.github.io/goit-markup-hw-01/
+https://malwinajordan.github.io/goit-markup-hw-02/
