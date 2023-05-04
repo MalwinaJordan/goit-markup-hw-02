@@ -18,7 +18,7 @@ background: #FFFFFF;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: #212121;
 
     position: absolute;
     width: 145px;
@@ -27,9 +27,17 @@ background: #FFFFFF;
     top: 24px;
 }
 
+.link:hover {
+    color:#2196F3
+}
 .web {
     /* WebStudio */
     color: #2196F3
+}
+
+.nav-links .link {
+    color:#212121
+    text-decoration: none
 }
 
 .nav-agency {
@@ -40,14 +48,11 @@ height: 16px;
 left: 453px;
 top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
-color: #212121;
 }
 
 .nav-portfolio {
@@ -59,9 +64,6 @@ width: 58px;
 left: 552px;
 top: 32px;
 
-
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -80,8 +82,6 @@ height: 16px;
 left: 656px;
 top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -99,8 +99,6 @@ height: 16px;
 left: 1078px;
 top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -119,8 +117,6 @@ height: 16px;
 left: 1263px;
 top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -128,3 +124,287 @@ letter-spacing: 0.02em;
 
 color: #757575;
 }
+
+.hero {
+    /* Bg */
+
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+
+background: #2F303A;
+}
+
+.header-top-line {
+    /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
+
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 200px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 60px;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.button-main {
+ /* bg */
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+/* Zamów usługe */
+
+position: absolute;
+width: 117px;
+height: 30px;
+left: 742px;
+top: 350px;
+margin-top: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 30px;
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+
+.lorem-impsum-1 {
+position: absolute;
+width: 270px;
+left: 215px;
+top: 774px;
+}
+
+.lorem-impsum-2 {
+position: absolute;
+width: 270px;
+left: 515px;
+top: 774px;
+}
+
+.lorem-impsum-3 {
+position: absolute;
+width: 270px;
+left: 815px;
+top: 774px;
+}
+
+.lorem-impsum-4 {
+position: absolute;
+width: 270px;
+left: 1115px;
+top: 774px;
+}
+
+.about-us {
+    /* Czym się zajmujemy */
+
+position: absolute;
+width: 352px;
+height: 42px;
+left: 624px;
+top: 969px;
+}
+
+.about-us-img-1 {
+
+position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1061px;
+}
+
+.about-us-img-2 {
+
+position: absolute;
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1061px;
+}
+
+.about-us-img-3 {
+position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1061px;
+}
+
+.our-team-main {
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+
+background: #F5F4FA;
+}
+
+.our-team {
+    /* Nasz zespół */
+
+position: absolute;
+width: 210px;
+height: 42px;
+left: 695px;
+top: 94px;
+}
+
+.card-1 {
+    /* card bg */
+
+position: absolute;
+width: 270px;
+height: 368px;
+left: 215px;
+top: 186px;
+}
+
+.card-2 {
+    /* card bg */
+
+position: absolute;
+width: 270px;
+height: 368px;
+left: 515px;
+top: 186px;
+}
+
+.card-3 {
+    /* card bg */
+
+position: absolute;
+width: 270px;
+height: 368px;
+left: 815px;
+top: 186px;
+}
+
+.card-4 {
+    /* card bg */
+
+position: absolute;
+width: 270px;
+height: 368px;
+left: 1115px;
+top: 186px;
+}
+
+.footer-main {
+    /* Footer bg */
+
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+
+background: #2F303A;
+}
+
+.footer-top-line {
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 60px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.footer-location {
+position: absolute;
+width: 246px;
+height: 21px;
+left: 215px;
+top: 111px;
+margin-top: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.footer-mail {
+position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 141px;
+margin-top: 9px;
+padding-top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone {
+position: absolute;
+width: 231px;
+height: 21px;    
+left: 215px;
+top: 171px;
+margin-top: 9px;
+padding-top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
