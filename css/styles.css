@@ -154,7 +154,7 @@ position: absolute;
 width: 696px;
 height: 120px;
 left: 452px;
-top: 200px;
+top: 170px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -172,38 +172,24 @@ color: #FFFFFF;
 .button-main {
  /* bg */
 
-position: absolute;
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
-
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-
-/* Zamów usługe */
-
-position: absolute;
-width: 117px;
-height: 30px;
-left: 742px;
-top: 350px;
-margin-top: 30px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 10px;
-line-height: 30px;
-/* identical to box height, or 188% */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-color: #FFFFFF;
+    background: #2196f3;
+    border: #2196f3;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.60;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10px 41px 10px 41px;
+    margin-top: 350px;
+    margin-left: 700px;
 }
+
 
 .lorem-impsum-1 {
 position: absolute;
