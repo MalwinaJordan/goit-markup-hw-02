@@ -2,16 +2,12 @@ ul {
     list-style-type: none;
 }
 
-.top-line {
-    /* top line bg */
+h3 {
+    color: #212121;
+}
 
-position: absolute;
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;
-
-background: #FFFFFF;
+a {
+    text-decoration: none;
 }
 
 .web-studio-link {
@@ -20,14 +16,7 @@ background: #FFFFFF;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
+    line-height: 100%;
 }
 
 .web {
@@ -35,373 +24,100 @@ background: #FFFFFF;
     color: #2196F3
 }
 
-a.web-studio-link:link {text-decoration: none; color:#000000}
-a.web-studio-link:visited {text-decoration: none;color: #000000;}
-a.web-studio-link:hover {text-decoration: none; color:#2196F3;}
-a.web-studio-link:active {text-decoration: none; color: #000000;}
+a.web-studio-link:link {color:#000000}
+a.web-studio-link:visited {color: #000000;}
+a.web-studio-link:hover {color:#2196F3;}
+a.web-studio-link:active {color: #000000;}
 
-a.nav-links:link {text-decoration: none; color: #212121;}
-a.nav-links:visited {text-decoration: none; color: #212121;}
-a.nav-links:hover {text-decoration: none; color: #2196F3;}
-a.nav-links:active {text-decoration: none; color: #212121;}
+a.nav-links:link {color: #212121;}
+a.nav-links:visited {color: #212121;}
+a.nav-links:hover {color: #2196F3;}
+a.nav-links:active {color: #212121;}
 
-a.contact-links:link {text-decoration: none; color: #757575}
-a.contact-links:visited {text-decoration: none; color: #757575}
-a.contact-links:hover {text-decoration: none; color: #2196F3}
-a.contact-links:active {text-decoration: none; color: #757575}
+a.contact-links:link {color: #757575}
+a.contact-links:visited {color: #757575}
+a.contact-links:hover {color: #2196F3}
+a.contact-links:active {color: #757575}
 
-.nav-agency {
+.nav-list {
     /* Agencja */
-position: absolute;
-width: 53px;
-height: 16px;
-left: 453px;
-top: 32px;
-
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-}
-
-.nav-portfolio {
-    /* Portfolio */
-
-position: absolute;
-height: 16px;
-width: 58px;
-left: 552px;
-top: 32px;
-
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
-
-}
-
-.nav-contacts {
-    /* Kontakt */
-
-position: absolute;
-width: 51px;
-height: 16px;
-left: 656px;
-top: 32px;
-
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
-}
-
-.nav-mail {
-    /* info@devstudio.com */
-
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #2196F3;
-
-}
-
-.nav-phone {
-    /* +48 111 111 111 */
-
-position: absolute;
-width: 110px;
-height: 16px;
-left: 1263px;
-top: 32px;
-
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #757575;
-}
-
-.hero {
-    /* Bg */
-
-position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-
-background: #2F303A;
+line-height: 100%;
 }
 
 .header-top-line {
     /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
-
-position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 170px;
-
 font-weight: 900;
 font-size: 30px;
-line-height: 60px;
-/* or 136% */
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
+line-height: 136%;
 color: #FFFFFF;
 }
 
 .button-main {
- /* bg */
-
-    background: #2196f3;
-    border: #2196f3;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.60;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    padding: 10px 41px 10px 41px;
+    /* bg */
+color: #ffffff;
+cursor: pointer;
+font-weight: 700;
+font-size: 16px;
+line-height: 188%;
 }
 
 h3-lorem {
-/* LOREM IPSUM */
-
-position: absolute;
-width: 270px;
-height: 16px;
-left: 515px;
-top: 774px;
+    /* LOREM IPSUM */
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
-}
-.lorem-impsum-1 {
-position: absolute;
-width: 270px;
-left: 215px;
-top: 774px;
+line-height: 100%;
 }
 
-.lorem-impsum-2 {
-position: absolute;
-width: 270px;
-left: 515px;
-top: 774px;
-}
-
-.lorem-impsum-3 {
-position: absolute;
-width: 270px;
-left: 815px;
-top: 774px;
-}
-
-.lorem-impsum-4 {
-position: absolute;
-width: 270px;
-left: 1115px;
-top: 774px;
+.box {
+line-height: 171%;
+color: #757575;
 }
 
 .about-us {
     /* Czym się zajmujemy */
-
-position: absolute;
-width: 352px;
-height: 42px;
-left: 624px;
-top: 969px;
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
 }
 
-.about-us-img-1 {
-
-position: absolute;
+.about-us-img {
 width: 370px;
 height: 294px;
-left: 215px;
-top: 1061px;
-}
-
-.about-us-img-2 {
-
-position: absolute;
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1061px;
-}
-
-.about-us-img-3 {
-position: absolute;
-width: 370px;
-height: 294px;
-left: 1015px;
-top: 1061px;
-}
-
-.our-team-main {
-position: absolute;
-width: 1600px;
-height: 648px;
-left: 0px;
-top: 1449px;
-
-background: #F5F4FA;
 }
 
 .our-team {
     /* Nasz zespół */
-
-position: absolute;
 width: 210px;
 height: 42px;
-left: 695px;
-top: 94px;
 }
 
-.card-1 {
+.card {
     /* card bg */
-
-position: absolute;
 width: 270px;
 height: 368px;
-left: 215px;
-top: 186px;
-}
-
-.card-2 {
-    /* card bg */
-
-position: absolute;
-width: 270px;
-height: 368px;
-left: 515px;
-top: 186px;
-}
-
-.card-3 {
-    /* card bg */
-
-position: absolute;
-width: 270px;
-height: 368px;
-left: 815px;
-top: 186px;
-}
-
-.card-4 {
-    /* card bg */
-
-position: absolute;
-width: 270px;
-height: 368px;
-left: 1115px;
-top: 186px;
-}
-
-.footer-main {
-    /* Footer bg */
-
-position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
-
-background: #2F303A;
 }
 
 .footer-top-line {
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 60px;
-
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
-/* identical to box height */
-letter-spacing: 0.03em;
-
+line-height: 100%;
 color: #FFFFFF;
 }
 
 .footer-location {
-position: absolute;
-width: 246px;
-height: 21px;
-left: 215px;
-top: 111px;
-margin-top: 20px;
-font-weight: 400;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-
+line-height: 171%;
 color: #FFFFFF;
 }
 
-.footer-mail {
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 141px;
-margin-top: 9px;
-padding-top: 9px;
-font-weight: 400;
+.footer-contact {
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-
+line-height: 171%;
 color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-phone {
-position: absolute;
-width: 231px;
-height: 21px;    
-left: 215px;
-top: 171px;
-margin-top: 9px;
-padding-top: 9px;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
-}
 
