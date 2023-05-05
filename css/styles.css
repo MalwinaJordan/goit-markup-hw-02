@@ -47,6 +47,10 @@ font-size: 14px;
 line-height: 100%;
 }
 
+.hero {
+background: #2F303A;
+}
+
 .header-top-line {
     /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
 font-weight: 900;
@@ -98,6 +102,10 @@ height: 42px;
     /* card bg */
 width: 270px;
 height: 368px;
+}
+
+.footer {
+background: #2F303A;
 }
 
 .footer-top-line {
